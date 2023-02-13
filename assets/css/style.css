@@ -1,0 +1,94 @@
+:root{
+    --cyan: rgb(0, 157, 255);
+    --grey: rgb(113, 110, 110);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html{
+    font-size: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-color: rgb(76, 75, 75);
+    border-bottom-style:outset;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    padding: 1%;
+    padding-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    min-width: 500px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--grey);
+    font-weight: bolder;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:focus {
+    color: var(--cyan);
+    
+}
+
+main{
+    display: flex;
+    min-height: 90%;
+    background-image: url(/Images/Tech-Bground.jpg);
+    background-position:15% 30%;
+    border-bottom-style:double;
+    border-color: var(--cyan);
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+#me img{
+    display: flex;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: 28%;
+}
+
+#top span {
+    color: var(--cyan)
+}
+
+#introname {
+    font-size: 3rem;
+    font-weight: bolder;
+    -ms-flex-align: center;
+}
+
+#aboutme {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 1%;
+    color: var(--grey)
+}
