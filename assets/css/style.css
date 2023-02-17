@@ -55,10 +55,9 @@ nav a:focus {
 
 main{
     display: flex;
-    min-height: 90%;
-    background-image: url(/Images/Tech-Bground.jpg);
-    background-position:15% 30%;
-    border-bottom-style:double;
+    background-size: cover;
+    background: url(/Images/Tech-Bground.jpg) no-repeat center center;
+    border-bottom-style:solid;
     border-color: var(--cyan);
 }
 
@@ -69,11 +68,14 @@ main{
     margin-top: 7%;
 }
 
+#me {
+    display:flex;
+    flex-direction:column ;
+}
+
 #me img{
-    display: flex;
     border-radius: 50%;
-    margin-left: 90%;
-    margin-top: 28%;
+
 }
 
 #top span {
